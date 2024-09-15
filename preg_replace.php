@@ -5,7 +5,7 @@ The preg_replace() function in PHP performs a search and replace using regular e
 
 $string = "I am a student";
 
-$pattern = "/I am/i";
+$pattern = "/I am/i"; // syntax = /pattern/modifier; When you use modifier(i) then the function will be case insensitive,,neither you do not use modifier(i) then the function will be case sensitive;
 
 $replace = "You are";
 
